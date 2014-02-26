@@ -22,12 +22,12 @@ var replace = require('fez-replace');
 
 exports.build = function (spec) {
 
-  spec.with('**/*.html').each(function (file) {
-    spec.rule(file, replace({
+  spec.with('source/index.html').one(function (file) {
+    spec.rule(file, 'target/index.html', replace({
       patterns: [
         {
-        match: 'foo',
-        replacement: 'bar'
+          match: 'foo',
+          replacement: 'bar'
         }
       ]
     }));
