@@ -1,0 +1,46 @@
+{
+  "name": "fez-replace",
+  "description": "Replace text patterns with a given replacement.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/outaTiME/fez-replace",
+  "author": {
+    "name": "outaTiME",
+    "url": "http://outa.im/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/outaTiME/fez-replace.git"
+  },
+  "bugs": {
+    "url": "http://github.com/outaTiME/fez-replace/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/outaTiME/fez-replace/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "pattern-replace": "~0.1.0",
+    "bluebird": "~1.0.3"
+  },
+  "keywords": [
+    "fez",
+    "replace",
+    "replacement",
+    "pattern",
+    "patterns",
+    "match",
+    "text",
+    "string",
+    "regex",
+    "regexp",
+    "json",
+    "flatten"
+  ],
+  "main": "src/main.js",
+  "files": [
+    "src/main.js",
+    "LICENSE-MIT"
+  ]
+}
