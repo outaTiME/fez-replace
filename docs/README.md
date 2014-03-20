@@ -22,8 +22,8 @@ var replace = require('fez-replace');
 
 exports.default = function (spec) {
 
-  spec.with('source/index.html').one(function (file) {
-    spec.rule(file, 'target/index.html', replace({
+  spec.with('src/index.html').one(function (file) {
+    spec.rule(file, 'build/index.html', replace({
       patterns: [
         {
           match: 'foo',
@@ -101,7 +101,6 @@ index.html
 NETWORK:
 *
 ```
-
 
 File `src/humans.txt`:
 
