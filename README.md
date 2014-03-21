@@ -22,8 +22,8 @@ var replace = require('fez-replace');
 
 exports.default = function (spec) {
 
-  spec.with('source/index.html').one(function (file) {
-    spec.rule(file, 'target/index.html', replace({
+  spec.with('src/index.html').one(function (file) {
+    spec.rule(file, 'build/index.html', replace({
       patterns: [
         {
           match: 'foo',
@@ -269,7 +269,6 @@ NETWORK:
 *
 ```
 
-
 File `src/humans.txt`:
 
 ```
@@ -478,6 +477,7 @@ fez(module);
 
 ## Release History
 
+ * 2014-03-21   v0.1.1   Test cases in Mocha, readme updated and code cleanup.
  * 2014-03-17   v0.1.0   New [pattern-replace](https://github.com/outaTiME/pattern-replace) modular core for replacements.
  * 2014-02-26   v0.0.1   Initial version.
 
