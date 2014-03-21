@@ -1,7 +1,7 @@
 {
   "name": "fez-replace",
   "description": "Replace text patterns using pattern-replace.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/outaTiME/fez-replace",
   "author": {
     "name": "outaTiME",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "release": "scripts/release.sh",
-    "test": "node fez.js && nodeunit test/*.js"
+    "test": "node fez.js && mocha"
   },
   "dependencies": {
     "pattern-replace": "0.1.2",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "fez": "~1.0.0",
-    "nodeunit": "~0.8.0",
+    "mocha": "*",
     "rimraf": "~2.2.6"
   },
   "keywords": [
@@ -51,9 +51,9 @@
     "yaml",
     "flatten"
   ],
-  "main": "src/index.js",
+  "main": "index.js",
   "files": [
-    "src/index.js",
+    "index.js",
     "LICENSE-MIT"
   ]
 }

@@ -7,17 +7,19 @@
  * https://github.com/outaTiME/fez-replace/blob/master/LICENSE-MIT
  */
 
+'use strict';
+
+// dependencies
+
 var fez = require('fez');
-var replace = require('./src');
+var replace = require('./index');
 
 exports.default = function (spec) {
-
-  'use strict';
 
   spec.with('test/fixtures/simple.txt').one(function (file) {
     spec.rule(file, 'temp/simple.txt', replace({
       variables: {
-        'key': 'value'
+        key: 'value'
       }
     }));
   });
