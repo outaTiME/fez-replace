@@ -1,7 +1,7 @@
 {
   "name": "fez-replace",
-  "description": "Replace text patterns using pattern-replace.",
-  "version": "0.1.1",
+  "description": "Replace text patterns with applause.",
+  "version": "0.1.2",
   "homepage": "http://github.com/outaTiME/fez-replace",
   "author": {
     "name": "outaTiME",
@@ -28,8 +28,8 @@
     "test": "node fez.js && mocha"
   },
   "dependencies": {
-    "pattern-replace": "0.1.2",
-    "bluebird": "~1.0.3"
+    "bluebird": "~1.0.3",
+    "applause": "0.3.0"
   },
   "devDependencies": {
     "fez": "~1.0.0",

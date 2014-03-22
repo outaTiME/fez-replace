@@ -10,7 +10,7 @@
 // dependencies
 
 var Promise = require("bluebird");
-var Replacer = require('pattern-replace');
+var Applause = require('applause');
 
 module.exports = function (options) {
   return function replace (inputs) {
@@ -19,10 +19,10 @@ module.exports = function (options) {
       ps.push(input.asBuffer());
     });
     return Promise.all(ps).then(function (buffers) {
-      var replacer = new Replacer(options);
+      var applause = Applause.create(options);
       return buffers.map(function (buf) {
         var content = buf.toString();
-        var result = replacer.replace(content);
+        var result = applause.replace(content);
         if (result === false) {
           // no replacements
           return content;

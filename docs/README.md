@@ -1,6 +1,6 @@
 # fez-replace [![Build Status](https://secure.travis-ci.org/outaTiME/fez-replace.png?branch=master)](http://travis-ci.org/outaTiME/fez-replace)
 
-> Replace text patterns using [pattern-replace](https://github.com/outaTiME/pattern-replace).
+> Replace text patterns with [applause](https://github.com/outaTiME/applause).
 
 
 
@@ -257,8 +257,6 @@ fez(module);
 
 #### Lookup for `foo` instead of `@@foo`
 
-The `String` matching type or `expression` in `false` generates a simple variable lookup mechanism `@@string`, to skip this mode use one of the below rules ... make your choice:
-
 fez.js:
 
 ```js
@@ -310,6 +308,7 @@ fez(module);
 
 ## Release History
 
+ * 2014-03-22   v0.1.2   Modular core renamed to [applause](https://github.com/outaTiME/applause). Performance improvements. Expression flag removed. New pattern matching for CSON object. More test cases, readme updated and code cleanup.
  * 2014-03-21   v0.1.1   Test cases in Mocha, readme updated and code cleanup.
  * 2014-03-17   v0.1.0   New [pattern-replace](https://github.com/outaTiME/pattern-replace) modular core for replacements.
  * 2014-02-26   v0.0.1   Initial version.
