@@ -1,7 +1,7 @@
 {
   "name": "fez-replace",
   "description": "Replace text patterns with applause.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "http://github.com/outaTiME/fez-replace",
   "author": {
     "name": "outaTiME",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "bluebird": "~1.0.3",
-    "applause": "0.3.0"
+    "applause": "0.3.1"
   },
   "devDependencies": {
     "fez": "~1.0.0",
