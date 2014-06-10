@@ -9,7 +9,7 @@
 
 // dependencies
 
-var Promise = require("bluebird");
+var Promise = require('bluebird');
 var Applause = require('applause');
 
 module.exports = function (options) {
@@ -28,7 +28,7 @@ module.exports = function (options) {
           return content;
         }
         return result;
-      }).join("");
+      }).join('');
     });
   };
 };
