@@ -525,6 +525,7 @@ fez(module);
 
 ## Release History
 
+ * 2015-05-01   v0.3.0   Update to [applause](https://github.com/outaTiME/applause) v0.4.0.
  * 2014-10-10   v0.2.0   Escape regexp when matching type is `String`.
  * 2014-06-10   v0.1.5   Remove node v.8.0 support and third party dependencies updated.
  * 2014-04-20   v0.1.4   JSON / YAML / CSON as function supported. Readme updated (thanks [@milanlandaverde](https://github.com/milanlandaverde)).
