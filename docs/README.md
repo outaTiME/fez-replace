@@ -1,4 +1,4 @@
-# fez-replace [![Build Status](https://travis-ci.org/outaTiME/fez-replace.svg?branch=master)](https://travis-ci.org/outaTiME/fez-replace) [![npm version](https://badge.fury.io/js/fez-replace.svg)](http://badge.fury.io/js/fez-replace)
+# fez-replace [![Build Status](https://img.shields.io/travis/outaTiME/fez-replace.svg)](https://travis-ci.org/outaTiME/fez-replace) [![NPM Version](https://img.shields.io/npm/v/fez-replace.svg)](https://npmjs.org/package/fez-replace)
 
 > Replace text patterns with [applause](https://github.com/outaTiME/applause).
 
