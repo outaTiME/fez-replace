@@ -1,8 +1,6 @@
-# fez-replace [![Build Status](https://secure.travis-ci.org/outaTiME/fez-replace.png?branch=master)](http://travis-ci.org/outaTiME/fez-replace)
+# fez-replace [![Build Status](https://travis-ci.org/outaTiME/fez-replace.svg?branch=master)](https://travis-ci.org/outaTiME/fez-replace) [![npm version](https://badge.fury.io/js/fez-replace.svg)](http://badge.fury.io/js/fez-replace)
 
 > Replace text patterns with [applause](https://github.com/outaTiME/applause).
-
-
 
 ## Install
 
@@ -308,6 +306,7 @@ fez(module);
 
 ## Release History
 
+ * 2015-08-19   v0.10.0   Last [applause](https://github.com/outaTiME/applause) integration and package.json update.
  * 2015-08-06   v0.3.3   Fix issue with special characters attributes ($$, $&, $`, $', $n or $nn) on JSON, YAML and CSON.
  * 2015-05-07   v0.3.1   Fix regression issue with empty string in replacement.
  * 2015-05-01   v0.3.0   Update to [applause](https://github.com/outaTiME/applause) v0.4.0.

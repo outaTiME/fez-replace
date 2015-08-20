@@ -1,25 +1,13 @@
 {
   "name": "fez-replace",
   "description": "Replace text patterns with applause.",
-  "version": "0.3.3",
-  "homepage": "http://github.com/outaTiME/fez-replace",
+  "version": "0.10.1",
   "author": {
     "name": "outaTiME",
     "url": "http://outa.im/"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/outaTiME/fez-replace.git"
-  },
-  "bugs": {
-    "url": "http://github.com/outaTiME/fez-replace/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/outaTiME/fez-replace/blob/master/LICENSE-MIT"
-    }
-  ],
+  "repository": "outaTiME/fez-replace",
+  "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -28,12 +16,12 @@
     "test": "node fez.js && mocha"
   },
   "dependencies": {
-    "bluebird": "^2.0.0",
-    "applause": "0.4.3"
+    "bluebird": "^2.9.0",
+    "applause": "1.0.4"
   },
   "devDependencies": {
     "mocha": "^2.2.0",
-    "rimraf": "^2.2.0",
+    "rimraf": "^2.4.0",
     "fez": "^1.0.0"
   },
   "keywords": [
@@ -54,7 +42,6 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js",
-    "LICENSE-MIT"
+    "index.js"
   ]
 }
