@@ -16,11 +16,11 @@
     "test": "node fez.js && mocha"
   },
   "dependencies": {
-    "bluebird": "^2.9.0",
-    "applause": "1.1.0"
+    "bluebird": "^3.4.6",
+    "applause": "1.2.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.0",
+    "mocha": "^3.1.2",
     "rimraf": "^2.4.0",
     "fez": "^1.0.0"
   },
