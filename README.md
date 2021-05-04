@@ -1,9 +1,10 @@
 # fez-replace
 
-[![Build Status](https://img.shields.io/travis/outaTiME/fez-replace.svg)](https://travis-ci.org/outaTiME/fez-replace)
+[![Build Status](https://img.shields.io/github/workflow/status/outaTiME/fez-replace/CI)](https://github.com/outaTiME/fez-replace/actions/workflows/main.yml)
 [![Version](https://img.shields.io/npm/v/fez-replace.svg)](https://www.npmjs.com/package/fez-replace)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Twitter: outa7iME](https://img.shields.io/twitter/follow/outa7iME.svg?style=social)](https://twitter.com/outa7iME)
 
 > Replace text patterns with [applause](https://github.com/outaTiME/applause).
